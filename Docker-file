@@ -1,0 +1,5 @@
+FROM httpd
+MAINTAINER name Sudheer
+LABEL this is my application image
+EXPOSE 80
+COPY . /user/local/apache2/htdocks/
